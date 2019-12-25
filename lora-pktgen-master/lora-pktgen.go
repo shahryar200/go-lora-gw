@@ -12,7 +12,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/mainflux/lora-pktgen/cmd"
+	"github.com/shahryar200/go-lora-gw/tree/master/lora-pktgen-master"
 	"github.com/spf13/cobra"
 )
 
@@ -21,7 +21,7 @@ func main() {
 	var s string
 
 	UDPHost := "0.0.0.0"
-	UDPPort := 1680
+	UDPPort := 1700
 
 	// print mainflux-cli banner
 	fmt.Println(banner)
